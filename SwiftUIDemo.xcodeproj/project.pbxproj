@@ -21,6 +21,7 @@
 		170708782A80D41F00A7F788 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170708772A80D41E00A7F788 /* NotificationsView.swift */; };
 		1707087A2A80D4A900A7F788 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170708792A80D4A900A7F788 /* TabBar.swift */; };
 		1707087C2A80D4BD00A7F788 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1707087B2A80D4BD00A7F788 /* Tab.swift */; };
+		1740D4272A85C02C007446CF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740D4262A85C02C007446CF /* AccountView.swift */; };
 		17BA83882A84B4D100A62BA5 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA83872A84B4D100A62BA5 /* LibraryView.swift */; };
 		17BA838A2A84DC2F00A62BA5 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA83892A84DC2F00A62BA5 /* Styles.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		170708772A80D41E00A7F788 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		170708792A80D4A900A7F788 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		1707087B2A80D4BD00A7F788 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		1740D4262A85C02C007446CF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		17BA83872A84B4D100A62BA5 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		17BA83892A84DC2F00A62BA5 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				17BA83862A84B3F300A62BA5 /* Main */,
+				1740D4262A85C02C007446CF /* AccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1740D4272A85C02C007446CF /* AccountView.swift in Sources */,
 				17BA838A2A84DC2F00A62BA5 /* Styles.swift in Sources */,
 				170708512A80D1BF00A7F788 /* SwiftUIDemo.xcdatamodeld in Sources */,
 				1707084E2A80D1BF00A7F788 /* Persistence.swift in Sources */,
