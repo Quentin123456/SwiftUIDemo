@@ -24,6 +24,7 @@
 		1740D4272A85C02C007446CF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740D4262A85C02C007446CF /* AccountView.swift */; };
 		17BA83882A84B4D100A62BA5 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA83872A84B4D100A62BA5 /* LibraryView.swift */; };
 		17BA838A2A84DC2F00A62BA5 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA83892A84DC2F00A62BA5 /* Styles.swift */; };
+		17DB8A652A86740700801606 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DB8A642A86740700801606 /* BlobView.swift */; };
 		17E66C922A86304200183A88 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E66C912A86304200183A88 /* HexagonView.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		1740D4262A85C02C007446CF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		17BA83872A84B4D100A62BA5 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		17BA83892A84DC2F00A62BA5 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		17DB8A642A86740700801606 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 		17E66C912A86304200183A88 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 				17BA83862A84B3F300A62BA5 /* Main */,
 				1740D4262A85C02C007446CF /* AccountView.swift */,
 				17E66C912A86304200183A88 /* HexagonView.swift */,
+				17DB8A642A86740700801606 /* BlobView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				17E66C922A86304200183A88 /* HexagonView.swift in Sources */,
 				17BA83882A84B4D100A62BA5 /* LibraryView.swift in Sources */,
 				170708742A80D32F00A7F788 /* ExploreView.swift in Sources */,
+				17DB8A652A86740700801606 /* BlobView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
