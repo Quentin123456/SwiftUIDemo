@@ -162,8 +162,6 @@
 			children = (
 				17BA83862A84B3F300A62BA5 /* Main */,
 				1740D4262A85C02C007446CF /* AccountView.swift */,
-				17E66C912A86304200183A88 /* HexagonView.swift */,
-				17DB8A642A86740700801606 /* BlobView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +178,8 @@
 		17BA83832A84B19700A62BA5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				17DB8A642A86740700801606 /* BlobView.swift */,
+				17E66C912A86304200183A88 /* HexagonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
