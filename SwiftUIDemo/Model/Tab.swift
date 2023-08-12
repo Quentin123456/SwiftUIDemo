@@ -20,7 +20,7 @@ var tabItems = [
     TabItem(text: "Learn Now", icon: "house", tab: .home, color: .teal),
     TabItem(text: "Explore", icon: "magnifyingglass", tab: .explore, color: .blue),
     TabItem(text: "Notifications", icon: "bell", tab: .notifications, color: .red),
-    TabItem(text: "Library", icon: "rectangle.stack", tab: .library, color: .orange)
+    TabItem(text: "Library", icon: "rectangle.stack", tab: .library, color: .pink)
 ]
 
 enum Tab: String {
