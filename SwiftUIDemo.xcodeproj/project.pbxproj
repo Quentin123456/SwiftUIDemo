@@ -199,9 +199,7 @@
 				17B3CB462A87D5E1006957C3 /* MatchedView.swift */,
 				17ACFE842A88671A005DDAB6 /* CourseView.swift */,
 				17ACFE8A2A89082A005DDAB6 /* SearchView.swift */,
-				17ACFE8E2A892021005DDAB6 /* SignUpView.swift */,
-				17D85FFC2A89C0B500B58336 /* ModalView.swift */,
-				17D85FFE2A89C15500B58336 /* SignInView.swift */,
+				17D860002A89C83B00B58336 /* Modals */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +258,16 @@
 				17BA83872A84B4D100A62BA5 /* LibraryView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		17D860002A89C83B00B58336 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				17ACFE8E2A892021005DDAB6 /* SignUpView.swift */,
+				17D85FFE2A89C15500B58336 /* SignInView.swift */,
+				17D85FFC2A89C0B500B58336 /* ModalView.swift */,
+			);
+			path = Modals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
