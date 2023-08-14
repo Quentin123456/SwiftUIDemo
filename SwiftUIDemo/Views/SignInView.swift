@@ -1,13 +1,13 @@
 //
-//  SignUpView.swift
+//  SignInView.swift
 //  SwiftUIDemo
 //
-//  Created by Quentin Zang on 2023/8/13.
+//  Created by Quentin Zang on 2023/8/14.
 //
 
 import SwiftUI
 
-struct SignUpView: View {
+struct SignInView: View {
     enum Field: Hashable {
         case email
         case password
@@ -61,18 +61,14 @@ struct SignUpView: View {
             .controlSize(.large)
             
             Group {
-                Text("By clicking on ")
-                + Text("_Create an account_").foregroundColor(.primary.opacity(0.7))
-                + Text(", you agree to our **Terms of Service** and **[Privacy Policy](https://designcode.io)**")
-                
                 Divider()
                 
                 HStack {
-                    Text("Already have an account?")
+                    Text("No account yet?")
                     Button {
-                        model.selectedModal = .signIn
+                        model.selectedModal = .signUp
                     } label: {
-                        Text("**Sign in**")
+                        Text("**Sign up**")
                     }
                 }
             }
@@ -115,10 +111,10 @@ struct SignUpView: View {
     }
 }
 
-struct SignUpView_Previews: PreviewProvider {
+struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            SignUpView()
+            SignInView()
                 .environmentObject(Model())
         }
     }
