@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct AvatarView: View {
-//    @AppStorage("isLogged") var isLogged = false
+    @AppStorage("isLogged") var isLogged = false
     
     var body: some View {
-//        Group {
-//            if isLogged {
+        Group {
+            if isLogged {
                 AsyncImage(url: URL(string: "https://picsum.photos/200"), transaction: Transaction(animation: .easeOut)) { phase in
                     switch phase {
                     case .success(let image):
@@ -26,11 +26,11 @@ struct AvatarView: View {
                         EmptyView()
                     }
                 }
-//            } else {
-//                Image("Avatar Default")
-//                    .resizable()
-//            }
-//        }
+            } else {
+                Image("Avatar Default")
+                    .resizable()
+            }
+        }
         .frame(width: 26, height: 26)
         .cornerRadius(10)
         .padding(8)
@@ -41,6 +41,6 @@ struct AvatarView: View {
 
 struct AvatarView_Previews: PreviewProvider {
     static var previews: some View {
-        AvatarView()
+        AvatarView(isLogged: true)
     }
 }
