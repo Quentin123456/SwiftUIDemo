@@ -48,6 +48,7 @@
 		17B3CB452A87CC28006957C3 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B3CB442A87CC28006957C3 /* Course.swift */; };
 		17BA83882A84B4D100A62BA5 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA83872A84B4D100A62BA5 /* LibraryView.swift */; };
 		17BA838A2A84DC2F00A62BA5 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA83892A84DC2F00A62BA5 /* Styles.swift */; };
+		17CFF57D2A8AFCD40092D636 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFF57C2A8AFCD40092D636 /* CertificateView.swift */; };
 		17D85FF92A89B11E00B58336 /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D85FF82A89B11E00B58336 /* AngularButtonStyle.swift */; };
 		17D85FFB2A89B66200B58336 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D85FFA2A89B66200B58336 /* InputStyle.swift */; };
 		17D85FFD2A89C0B500B58336 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D85FFC2A89C0B500B58336 /* ModalView.swift */; };
@@ -119,6 +120,7 @@
 		17B3CB442A87CC28006957C3 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		17BA83872A84B4D100A62BA5 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		17BA83892A84DC2F00A62BA5 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		17CFF57C2A8AFCD40092D636 /* CertificateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
 		17D85FF82A89B11E00B58336 /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
 		17D85FFA2A89B66200B58336 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
 		17D85FFC2A89C0B500B58336 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				17787E2A2A8A2E4E00AF1C72 /* SmallCourseItem.swift */,
 				17787E2E2A8A323D00AF1C72 /* HandbookItem.swift */,
 				17787E322A8A345500AF1C72 /* ListRow.swift */,
+				17CFF57C2A8AFCD40092D636 /* CertificateView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				17ACFE832A8865EB005DDAB6 /* CourseItem.swift in Sources */,
 				17787E2F2A8A323D00AF1C72 /* HandbookItem.swift in Sources */,
 				170708762A80D36500A7F788 /* HomeView.swift in Sources */,
+				17CFF57D2A8AFCD40092D636 /* CertificateView.swift in Sources */,
 				17787E212A8A1F4400AF1C72 /* CircularView.swift in Sources */,
 				17787E232A8A20B900AF1C72 /* CourseSection.swift in Sources */,
 				17787E292A8A2C0C00AF1C72 /* PlayView.swift in Sources */,
@@ -680,7 +684,7 @@
 				DEVELOPMENT_TEAM = GKY55PPXT6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = SwiftUI;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIDemo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -711,7 +715,7 @@
 				DEVELOPMENT_TEAM = GKY55PPXT6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = SwiftUI;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIDemo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -19,11 +19,11 @@ struct ContentView: View {
             case .home:
                 HomeView()
             case .explore:
-                AccountView()
+                ExploreView()
             case .notifications:
-                AccountView()
+                NotificationsView()
             case .library:
-                AccountView()
+                LibraryView()
             }
          
             TabBar()
