@@ -32,4 +32,3 @@ extension View {
         modifier(InputStyle(icon: icon))
     }
 }
-

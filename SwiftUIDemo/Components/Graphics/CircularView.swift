@@ -34,4 +34,3 @@ struct CircularView_Previews: PreviewProvider {
         CircularView()
     }
 }
-

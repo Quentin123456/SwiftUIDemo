@@ -21,9 +21,9 @@ struct NavigationBar: View {
                 .background(.ultraThinMaterial)
                 .blur(radius: 10)
                 .opacity(hasScrolled ? 1 : 0)
+            
             Text(title)
                 .animatableFont(size: hasScrolled ? 22 : 34, weight: .bold)
-                .font(.system(size: hasScrolled ? 22 : 32))
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.leading, 20)
                 .padding(.top, 20)
@@ -68,7 +68,7 @@ struct NavigationBar: View {
             .offset(y: hasScrolled ? -4 : 0)
         }
         .frame(height: hasScrolled ? 44 : 70)
-            .frame(maxHeight: .infinity, alignment: .top)
+        .frame(maxHeight: .infinity, alignment: .top)
     }
 }
 

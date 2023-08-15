@@ -93,7 +93,7 @@ struct CourseView: View {
     }
     
     var content: some View {
-        VStack(alignment: .leading, spacing: 30) {
+        VStack(alignment: .leading) {
             ForEach(Array(courseSections.enumerated()), id: \.offset) { index, section in
                 if index != 0 { Divider() }
                 SectionRow(section: section)
@@ -156,15 +156,15 @@ struct CourseView: View {
             }
             .opacity(appear[1] ? 1 : 0)
         }
-            .padding(20)
-            .background(
-                Rectangle()
-                    .fill(.ultraThinMaterial)
-                    .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
-                    .matchedGeometryEffect(id: "blur\(course.id)", in: namespace)
-            )
-            .offset(y: 250)
-            .padding(20)
+        .padding(20)
+        .background(
+            Rectangle()
+                .fill(.ultraThinMaterial)
+                .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
+                .matchedGeometryEffect(id: "blur\(course.id)", in: namespace)
+        )
+        .offset(y: 250)
+        .padding(20)
     }
     
     var drag: some Gesture {

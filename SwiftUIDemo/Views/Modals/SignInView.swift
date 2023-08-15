@@ -26,7 +26,7 @@ struct SignInView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Sign In")
+            Text("Sign in")
                 .font(.largeTitle).bold()
                 .opacity(appear[0] ? 1 : 0)
                 .offset(y: appear[0] ? 0 : 20)
@@ -70,7 +70,7 @@ struct SignInView: View {
                 .tint(.accentColor)
                 .controlSize(.large)
                 .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
-    
+                
                 Divider()
                 
                 HStack {

@@ -27,7 +27,6 @@ struct CourseItem: View {
                     .font(.footnote)
                     .matchedGeometryEffect(id: "text\(course.id)", in: namespace)
             }
-            
             .padding(20)
             .background(
                 Rectangle()

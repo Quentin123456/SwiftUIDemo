@@ -24,7 +24,7 @@ struct SignUpView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Sign Up")
+            Text("Sign up")
                 .font(.largeTitle).bold()
             Text("Access 12+ hours of courses, tutorials and livestreams")
                 .font(.headline)
@@ -59,6 +59,7 @@ struct SignUpView: View {
             .buttonStyle(.angular)
             .tint(.accentColor)
             .controlSize(.large)
+            .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
             
             Group {
                 Text("By clicking on ")

@@ -116,6 +116,7 @@ struct HomeView: View {
                             selectedIndex = index
                         }
                         .accessibilityElement(children: .combine)
+                        .accessibilityAddTraits(.isButton)
                 }
             }
         }
